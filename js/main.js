@@ -8,7 +8,7 @@ var prompt = '$ ';
 var printing = false;
 
 // delay between chars
-var delay = 10;
+var delay = 40;
 
 // max command size
 var maxCommandSize = 20;
