@@ -1,6 +1,6 @@
 * shanavas786.github.io
 
-This is inspired by [[http://piratemedia.tv][eliotstocker's work]]
+About page is inspired by [[http://piratemedia.tv][eliotstocker's work]]
 
 * License
 
