@@ -13,6 +13,10 @@
     <section class="page-header">
       <h1 class="project-name">{{ page.title | default: "Title" }}</h1>
       <h2 class="project-tagline">{{ page.description | default: "" }}</h2>
+      <h4 class="project-metadata">
+        Published: <span class="data">{{ page.date | default: "" }}</span>
+        Tags: <span class="data">{{ page.tags | default: "" }}</span>
+      </h4>
     </section>
 
     <section class="main-content">

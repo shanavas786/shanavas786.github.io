@@ -123,7 +123,7 @@ a {
 }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 0.7rem;
   font-weight: normal;
   opacity: 0.7;
 
@@ -137,6 +137,29 @@ a {
 
   @include small {
     font-size: 1rem;
+  }
+}
+
+.project-metadata {
+  .data {
+    color: #0def18;
+    opacity: 1;
+  }
+
+  margin: 0;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    font-size: 0.8rem;
   }
 }
 
