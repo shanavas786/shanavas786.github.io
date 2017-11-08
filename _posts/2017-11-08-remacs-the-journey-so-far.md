@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Remacs - The journey so far.."
-date:   2017-11-08 19:58:00 +0330
+date:   2017-11-08
 description: "Evolution of Remacs, The Rust port of Gnu Emacs"
 categories: rust
+tags: Rust Emacs Remacs
 ---
 
 ### [](#intro) What, Remacs ?!!
@@ -11,13 +12,14 @@ Remacs is a project created by [Wilfred](https://github.com/Wilfred) aimed at
 porting C part of Gnu Emacs to [Rust](https://www.rust-lang.org/). If you are a
 programmer and don't know what Gnu Emacs is,
 [**GO, CHECK NOW!!**](https://www.gnu.org/software/emacs/). You have been
-missing one of the most powerful development tools. You can find more development
-reports [here](http://www.wilfred.me.uk/archives/).
+missing one of the most powerful development tools.
 
 It has been 4 months since my first
 [contribution](https://github.com/Wilfred/remacs/pull/211) to
 [Remacs](https://github.com/Wilfred/remacs). This post summarises the evolution
-of primitive lisp function definition in Rust over time.
+of primitive lisp function definition in Rust over time.  You can find more development
+reports [here](http://www.wilfred.me.uk/archives/).
+
 
 ### [](#evolution) Evolution of Lisp functions in Rust
 
