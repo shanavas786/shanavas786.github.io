@@ -155,6 +155,6 @@ wrapped in a `rust_init_syms` function.
 This reduced the size of `rust_src/lib.rs` file from around 500 lines to 88
 lines with an overhead of single line in module files.
 
-#### [](#next) Is The Sprint Over ?
+#### [](#next) What Next ?
 
-No. The Rust language is improving day by day so does Remacs. So we can expect more.
+The Rust language is improving day by day so does Remacs. So we can expect more.
