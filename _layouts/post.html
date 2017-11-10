@@ -14,8 +14,11 @@
       <h1 class="project-name">{{ page.title | default: "Title" }}</h1>
       <h2 class="project-tagline">{{ page.description | default: "" }}</h2>
       <h4 class="project-metadata">
-        Published: <span class="data">{{ page.date | default: "" }}</span>
-        Tags: <span class="data">{{ page.tags | default: "" }}</span>
+        <span class="data">{{ page.date | date: '%B %d, %Y' }}</span>
+        {% for tag in page.tags %}
+        • <span class="data">{{ tag }}</span>
+        </li>
+        {% endfor %}
       </h4>
     </section>
 

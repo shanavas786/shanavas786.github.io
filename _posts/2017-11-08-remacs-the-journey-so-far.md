@@ -4,7 +4,10 @@ title:  "Remacs - The journey so far.."
 date:   2017-11-08
 description: "Evolution of Remacs, The Rust port of Gnu Emacs"
 categories: rust
-tags: Rust Emacs Remacs
+tags:
+  - Rust
+  - Emacs
+  - Remacs
 ---
 
 ### [](#intro) What, Remacs ?!!
