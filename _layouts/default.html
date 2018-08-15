@@ -10,15 +10,14 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <h4 class="project-metadata">
-        {% for tag in page.tags %}
-        • <span class="data">{{ tag }}</span>
-        </li>
-        {% endfor %}
-      </h4>
+    <section class="site-header">
+      <span class="site-name">
+        {{ site.title | default: site.github.repository_name }}
+      </span>
+      <span>
+        {{ site.description | default: site.github.repository_name }}
+      </span>
+      <span class="about"><a href="about.html">About</a></span>
     </section>
 
     <section class="main-content">

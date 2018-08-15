@@ -105,6 +105,63 @@ a {
   }
 }
 
+.site-header {
+  color: $header-heading-color;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  text-align: left;
+  position: relative;
+  height: 80px;
+
+  @include large {
+    padding: 1rem 3rem;
+  }
+
+  @include medium {
+    padding: 1rem 4rem;
+  }
+
+  @include small {
+    padding: 1rem 1rem;
+  }
+}
+
+.site-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  margin-left: 10px;
+  margin-right: 20px;
+  display: inline-block;
+
+  @include large {
+    font-size: 1.75rem;
+  }
+
+  @include medium {
+    font-size: 1.5rem;
+  }
+
+  @include small {
+    font-size: 1.25rem;
+  }
+}
+
+.site-tagline{
+  margin-top: 0;
+  display: inline-block;
+
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.about {
+  float: right;
+  margin-top: 10px;
+  a {
+    color: white;
+  }
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
@@ -374,5 +431,9 @@ a {
 }
 
 h2.post-link {
-  margin-top: 0.5em;
+  margin-top: 0;
+}
+
+span.post-meta {
+  font-size: 0.9rem;
 }
