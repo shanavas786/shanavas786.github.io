@@ -13,6 +13,12 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      <h4 class="project-metadata">
+        {% for tag in page.tags %}
+        • <span class="data">{{ tag }}</span>
+        </li>
+        {% endfor %}
+      </h4>
     </section>
 
     <section class="main-content">

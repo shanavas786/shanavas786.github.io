@@ -366,3 +366,13 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+
+.post-list {
+  list-style: none;
+  min-height: 400px;
+}
+
+h2.post-link {
+  margin-top: 0.5em;
+}

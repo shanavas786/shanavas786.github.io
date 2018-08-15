@@ -4,11 +4,15 @@ title:  "Remacs - The journey so far.."
 date:   2017-11-08
 description: "Evolution of Remacs, The Rust port of Gnu Emacs"
 categories: rust
+excerpt:
+  Evolution of lisp functions in Remacs, a project aimed at porting C part of Gnu Emacs to Rust.
+
 tags:
   - Rust
   - Emacs
   - Remacs
 ---
+
 
 ### [](#intro) What, Remacs ?!!
 Remacs is a project created by [Wilfred](https://github.com/Wilfred) aimed at
