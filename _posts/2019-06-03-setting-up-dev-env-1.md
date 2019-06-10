@@ -18,7 +18,7 @@ same process and I feel I am almost in a stable state. Here is my current setup
 so that I don't have to undergo the evolution again.
 
 ### [](#os) Os - Debian
-I have been using [Debian Gnu/Linux](https://debian.org) for a while and haven't
+I have been using [Debian GNU/Linux](https://debian.org) for a while and haven't
 find a reason to switch. It keeps perfect balance between stability, security
 and availability of latest version of softwares.
 
@@ -133,17 +133,17 @@ chsh -s `which fish` # make fish default shell
 ```
 
 
-### [](#editor) Editor - Gnu Emacs
+### [](#editor) Editor - GNU Emacs
 
-I use [Gnu Emacs](https://www.gnu.org/software/emacs) a highly customizable text
+I use [GNU Emacs](https://www.gnu.org/software/emacs) a highly customizable text
 editor with Henrik Lissner's [doom-emacs](https://github.com/hlissner/doom-emacs/)
 configuration.
 
 #### Installation
 
-  - Gnu Emacs
+  - GNU Emacs
 
-  Gnu Emacs releases are available in Debian package repository. I use Gnu Emacs
+  GNU Emacs releases are available in Debian package repository. I use GNU Emacs
 27 which is based on master branch. To build from source,
 
 ```
